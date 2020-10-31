@@ -1,11 +1,11 @@
 // Note: having length != 4 will mess with layout based on how the site is styled
 const bookmarks = [
   {
-    title: "Daily",
+    title: "Favourites",
     links: [
-      { name: "Inbox", url: "https://inbox.google.com" },
+      { name: "Gmail", url: "https://mail.google.com/mail/u/0/" },
       { name: "GitHub", url: "https://github.com" },
-      { name: "Drive", url: "https://drive.google.com" },
+      { name: "StudIP", url: "https://studip.uni-hannover.de/" },
     ],
   },
   {
@@ -23,25 +23,38 @@ const bookmarks = [
   {
     title: "Reddit",
     links: [
-      { name: "/r/overwatch", url: "https://reddit.com/r/overwatch" },
-      {
-        name: "/r/pcmasterrace",
-        url: "https://reddit.com/r/pcmasterrace",
+      { name: "/r/Telegram",
+        url: "https://www.reddit.com/r/Telegram/" 
       },
-      { name: "/r/me_irl", url: "https://reddit.com/r/me_irl" },
       {
-        name: "/r/battlestations",
-        url: "https://reddit.com/r/battlestations",
+        name: "/r/google",
+        url: "https://www.reddit.com/r/google/",
       },
-      { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
-      { name: "/r/news", url: "https://reddit.com/r/news" },
+      { name: "/r/germany", 
+        url: "https://www.reddit.com/r/germany/" 
+      },
+      {
+        name: "/r/TechNewsToday",
+        url: "https://www.reddit.com/r/TechNewsToday/",
+      },
+      { name: "/r/ManjaroLinux",
+        url: "https://www.reddit.com/r/ManjaroLinux"
+      },
+      { name: "/r/Huawei",
+        url: "https://www.reddit.com/r/Huawei/" 
+      },
+      { name: "/r/Hannover",
+        url: "https://www.reddit.com/r/Hannover/" 
+      },
     ],
   },
   {
     title: "Social",
     links: [
+      { name: "Instagram", url: "https://www.instagram.com" },
       { name: "Twitter", url: "https://twitter.com" },
-      { name: "Facebook", url: "https://facebook.com" },
+      { name: "WhatsApp", url: "https://web.whatsapp.com" },
+      { name: "Discord", url: "https://discord.com/login" },
     ],
   },
 ];
