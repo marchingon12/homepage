@@ -1,7 +1,7 @@
 // Note: having length != 4 will mess with layout based on how the site is styled
 const bookmarks = [
   {
-    title: "Favourites",
+    title: "[favs]",
     links: [
       { name: "Gmail", url: "https://mail.google.com/mail/u/0/" },
       { name: "GitHub", url: "https://github.com" },
@@ -9,7 +9,7 @@ const bookmarks = [
     ],
   },
   {
-    title: "Media",
+    title: "[media]",
     links: [
       { name: "Youtube", url: "https://youtube.com" },
       { name: "Netflix", url: "https://netflix.com" },
@@ -21,7 +21,7 @@ const bookmarks = [
     ],
   },
   {
-    title: "Reddit",
+    title: "[reddit]",
     links: [
       { name: "/r/Telegram",
         url: "https://www.reddit.com/r/Telegram/" 
@@ -49,7 +49,7 @@ const bookmarks = [
     ],
   },
   {
-    title: "Social",
+    title: "[social]",
     links: [
       { name: "Instagram", url: "https://www.instagram.com" },
       { name: "Twitter", url: "https://twitter.com" },
